@@ -1,0 +1,63 @@
+/*background site*/
+html{
+    background-image:url(background.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/*background body*/
+body{  
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: rgb(0, 0, 0, 0.5);
+    width: 1000px;
+    border-radius: 15px;
+    margin: auto;
+    margin-top: 40px;
+    padding: 100px;
+}
+
+/*header and nav*/
+.logo{
+    width: 250px;     
+}
+
+header, nav{
+    text-align: center ;
+}
+
+h1{
+    color: rgb(87, 222, 49) ;
+}
+
+nav{
+    background-color: rgb(87, 222, 49);
+    padding: 15px;
+}
+
+/*main, scooter section*/
+#scooter-name{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+hr{
+    border-radius: 5px;
+    margin: 0px;
+    border: 10px solid;
+}
+
+#charge-Gino{
+    color: rgb(245, 167, 84);
+    width: 300px;
+}   
+
+#charge-Mike{
+    color: rgb(44, 183, 42);
+    width: 500px;
+}
+
+#charge-Fede{
+    color: rgb(223, 78, 78);
+    width: 100px;
+}
